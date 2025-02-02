@@ -6,7 +6,7 @@ public class Calculator {
         return a + b;
     }
 
-    public int subtracion(int a, int b) {
+    public int subtraction(int a, int b) {
         return a -b;
     }
 
@@ -15,7 +15,7 @@ public class Calculator {
         int a = 67;
         int b = 23;
         int addResult = calculator.addition(a, b);
-        int subResult = calculator.subtracion(a, b);
+        int subResult = calculator.subtraction(a, b);
 
         System.out.println(a + " plus " + b + " equals: " + addResult);
         System.out.println(a + " minus " + b + " equals: " + subResult);
